@@ -1,0 +1,30 @@
+.Request {
+  input {
+    display: block;
+    margin: 1rem 0;
+  }
+
+  label {
+    padding: 0.2rem 0.4rem;
+    margin: 1rem 0.5rem;
+    cursor: pointer;
+  }
+
+  input[type="radio"] {
+    display: none;
+  }
+
+  input[type="radio"]:checked + label {
+    background-color: rgb(180, 180, 226);
+    color: white;
+  }
+
+  textarea {
+    display: block;
+    margin: 1rem 0;
+  }
+
+  button {
+    display: block;
+  }
+}
